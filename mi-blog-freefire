@@ -1,0 +1,157 @@
+<!DOCTYPE html><html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Noticias actualizadas sobre Free Fire, eventos, códigos y torneos. Todo lo último del mundo gamer en un solo lugar." />
+  <title>GameFlash News - Blog de Free Fire</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }header {
+  background-color: #ffffff;
+  padding: 1rem 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  color: #2F80ED;
+  margin: 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+}
+
+.hero {
+  background-color: #2F80ED;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem;
+}
+
+h3 {
+  margin-top: 2rem;
+  color: #2F80ED;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+article {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+article h4 {
+  color: #2F80ED;
+  margin-top: 0;
+}
+
+.eventos ul {
+  padding-left: 1.2rem;
+}
+
+footer {
+  background-color: #efefef;
+  text-align: center;
+  padding: 2rem 1rem;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+}
+
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>GameFlash News</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#noticias">Noticias</a></li>
+          <li><a href="#eventos">Eventos</a></li>
+          <li><a href="#codigos">Redeem Codes</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  <section class="hero">
+    <div class="container">
+      <h2>¡Lo último de Free Fire esta semana!</h2>
+      <p>Premios, eventos especiales, torneos y códigos de recompensa actualizados cada día.</p>
+    </div>
+  </section>  <section class="destacadas" id="noticias">
+    <div class="container">
+      <h3>Noticias Destacadas</h3>
+      <div class="grid">
+        <article>
+          <h4>Canjea los códigos de hoy</h4>
+          <p>Obtén armas, skins y diamantes gratis con los códigos oficiales de Free Fire MAX del 14 de julio.</p>
+        </article>
+        <article>
+          <h4>India Cup 2025</h4>
+          <p>48 equipos avanzan en el torneo nacional de Free Fire. Conoce los clasificados y premios.</p>
+        </article>
+        <article>
+          <h4>Ofertas diarias en la tienda</h4>
+          <p>Hasta un 50% de descuento en objetos premium como skins y token crates. ¡Aprovecha ahora!</p>
+        </article>
+      </div>
+    </div>
+  </section>  <section class="eventos" id="eventos">
+    <div class="container">
+      <h3>Eventos Actuales</h3>
+      <ul>
+        <li><strong>Crossover Free Fire MAX x Squid Game:</strong> Participa del DDAKJI Challenge del 19 al 20 de julio y gana millones de diamantes.</li>
+        <li><strong>Servidor Advance OB50:</strong> Prueba funciones nuevas hasta el 24 de julio antes del lanzamiento oficial.</li>
+      </ul>
+    </div>
+  </section>  <footer id="contacto">
+    <div class="container">
+      <p>Síguenos en redes: Instagram | TikTok | YouTube</p>
+      <p>GameFlash News &copy; 2025 - Noticias diarias sobre Free Fire y el mundo gamer.</p>
+    </div>
+  </footer>
+</body>
+</html>
